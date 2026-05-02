@@ -3,9 +3,9 @@ import { Navigate, NavLink, Route, Routes, useNavigate, useSearchParams } from '
 
 const API_URL = import.meta.env.VITE_NOTIFICATION_API_URL || 'http://20.207.122.201/evaluation-service/notifications'
 const DEFAULT_TOKEN = import.meta.env.VITE_NOTIFICATION_TOKEN || ''
-const SEEN_KEY = 'hiremanager-seen-notifications'
-const TOKEN_KEY = 'hiremanager-token'
-const DEFAULT_PAGE_SIZE = 6
+const SEEN_KEY = import.meta.env.VITE_SEEN_KEY || 'hiremanager-seen-notifications'
+const TOKEN_KEY = import.meta.env.VITE_TOKEN_KEY || 'hiremanager-token'
+const DEFAULT_PAGE_SIZE = Number(import.meta.env.VITE_DEFAULT_PAGE_SIZE || '6')
 
 const NAV_ITEMS = [
   { to: '/all', label: 'All notifications' },
