@@ -1,6 +1,6 @@
 # Hire_Manager
 
-This is the frontend submission for the AffordMedicals notification app.
+This is the frontend submission for the Hire Manager notification app.
 
 ## What it does
 

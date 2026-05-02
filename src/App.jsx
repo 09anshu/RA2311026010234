@@ -3,8 +3,8 @@ import { Navigate, NavLink, Route, Routes, useNavigate, useSearchParams } from '
 
 const API_URL = 'http://20.207.122.201/evaluation-service/notifications'
 const DEFAULT_TOKEN = import.meta.env.VITE_NOTIFICATION_TOKEN || ''
-const SEEN_KEY = 'affordmed-seen-notifications'
-const TOKEN_KEY = 'affordmed-token'
+const SEEN_KEY = 'hiremanager-seen-notifications'
+const TOKEN_KEY = 'hiremanager-token'
 const DEFAULT_PAGE_SIZE = 6
 
 const NAV_ITEMS = [

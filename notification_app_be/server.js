@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 app.use(createLogger({ redact: ['password', 'token'] }))
 
-const TRUSTED_TOKEN = process.env.AFFORDMED_TRUSTED_TOKEN || ''
+const TRUSTED_TOKEN = process.env.HIRE_MANAGER_TRUSTED_TOKEN || ''
 
 app.get('/health', (req, res) => res.json({ ok: true }))
 

@@ -1,6 +1,6 @@
 # Notification System Design (High-level)
 
-This document outlines a minimal notification system for the AffordMedicals notification app.
+This document outlines a minimal notification system for the Hire Manager notification app.
 
 ## Goals
 - Single API fetch on frontend load (as requested).
