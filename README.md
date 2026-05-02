@@ -32,7 +32,7 @@ The app is pinned to `http://localhost:3000/` for grading and local development.
 
 ## API details
 
-- Endpoint: `http://20.207.122.201/evaluation-service/notifications`
+- Endpoint: Set via environment variable `VITE_NOTIFICATION_API_URL` (default: `http://20.207.122.201/evaluation-service/notifications`)
 - Method: `GET`
 - Headers:
 	- `Authorization: Bearer <token>`

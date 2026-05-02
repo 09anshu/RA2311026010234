@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Navigate, NavLink, Route, Routes, useNavigate, useSearchParams } from 'react-router-dom'
 
-const API_URL = 'http://20.207.122.201/evaluation-service/notifications'
+const API_URL = import.meta.env.VITE_NOTIFICATION_API_URL || 'http://20.207.122.201/evaluation-service/notifications'
 const DEFAULT_TOKEN = import.meta.env.VITE_NOTIFICATION_TOKEN || ''
 const SEEN_KEY = 'hiremanager-seen-notifications'
 const TOKEN_KEY = 'hiremanager-token'
